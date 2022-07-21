@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #000;
+    margin: 0;
+}
+
+/* --------------------------- */
+/* ----------HEADER+--------------- */
+.app {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header {
+    height: 132px;
+    padding-right: 61px;
+    padding-left: 64px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16)
+}
+
+.header-logo img {
+    width: 395.83px;
+    height: 37.53px;
+    margin-top: 52.54px;
+    margin-right: 63.58px;
+    margin-bottom: 42.93px;
+}
+
+.header ul {
+    padding: 0;
+    margin: 59px 0 40px 413px;
+    border: 0;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    margin-top: 59px;
+}
+
+.header-item-blog {
+    height: 34px;
+    width: 66px;
+    margin-right: 31px;
+    text-align: center;
+}
+
+.header-item-about {
+    height: 34px;
+    width: 84px;
+    margin-right: 34px;
+    text-align: center;
+}
+
+.header-item-links {
+    height: 34px;
+    width: 71px;
+    margin-right: 36px;
+    text-align: center;
+}
+
+.header-item-projects {
+    height: 34px;
+    width: 121px;
+    text-align: center;
+}
+
+.header-item-blog hr {
+    width: 66px;
+    height: 0;
+    margin-top: 37px;
+    size: 2px;
+    border-color: #000;
+    background-color: #000;
+}
+
+.header-link {
+    font-family: 'New York Small', sans-serif;
+    Line-height: 34px;
+    Letter-spacing: 0.12em;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* _____
+ */
+.section__about {
+    max-width: 1440px;
+    text-align: center;
+}
+
+.section__about-img img {
+    width: 1440px;
+    height: 900px;
+    margin: 52px 0px 44px 0px;
+}
+
+.section__about-title {
+    Font-family: "New York Extra Large", sans-serif;
+    Font-size: 54px;
+    Line-height: 100%;
+    text-Align: Center;
+    font-weight: 700;
+    width: 858px;
+    height: 162px;
+    margin: 53px 291px 32px 291px;
+}
+
+.section__about-text {
+    margin: 0px 424px;
+    width: 592px;
+    height: 68px;
+    font-size: 20px;
+    text-align: center;
+    Font-family: "SF Mono", sans-serif;
+    Font-size: 20px;
+    Line-height: 170%;
+    Vertical-align: Top;
+}
+
+.section__about-img hr {
+    width: 640px;
+    height: 0;
+    margin: 32px 400px 0px 400px;
+}
+
+.section__articles-blog {
+    display: flex;
+    margin-left: 399px;
+}
+
+.section__articles-avatar img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    margin-top: 24px;
+}
+
+.section__articles-infomation {
+    margin-top: 29px;
+    margin-left: 16px;
+}
+
+.section__articles-info {
+    text-transform: uppercase;
+    width: 162px;
+    height: 19px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+.section__articles-time {
+    width: 191px;
+    height: 19px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.section__articles-social {
+    width: 140px;
+    height: 44px;
+    margin-top: 30px;
+    margin-left: 237px;
+    /* background: #FFFFFF; */
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.section__articles-social hr {
+    width: 44px;
+    height: 0px;
+    border: 1px solid #EAEAEA;
+    background: #EAEAEA;
+    transform: rotate(-90deg);
+    margin-left: 40px;
+}
+
+
+.section__articles-social-fb img {
+    margin-top: 12px;
+    margin-left: 25px;
+    margin-bottom: 0.21%;
+}
+
+.section__articles-social-fb {
+    width: 19.62px;
+    height: 16px;
+    /* text-align: center; */
+}
+
+.section__articles-social-tweet {
+    width: 19.62px;
+    height: 16px;
+    /* text-align: center;  */
+}
+
+.section__articles-introduce {
+    width: 640px;
+    height: 238px;
+    margin-left: 400px;
+    margin-top: 47px;
+    font-family: 'New York Medium',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: start;
+}
